@@ -20,7 +20,11 @@ public class Review1 {
   int intCount;
   int intTotal = 0;
 
-
+  // User input for month and day
+  System.out.println("Enter the month numbedr: ");
+  intMonth = Interger.parseInt(keyboard.readLine());
+  System.out.println("Enter the day number: ");
+  
 
 
 
