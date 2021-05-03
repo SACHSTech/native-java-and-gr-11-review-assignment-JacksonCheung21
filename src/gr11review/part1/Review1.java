@@ -6,7 +6,7 @@ import java.io.*;
 @author: J. Cheung
 */
 
-public class Review1{
+public class Review2{
 
  public static void main(String[] args) throws IOException{
  

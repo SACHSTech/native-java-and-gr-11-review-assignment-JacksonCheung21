@@ -9,7 +9,7 @@ import java.io.*;
 
 public class Review2{
  public static void main(String[] args) throws IOException{
-  BufferedReader key = new Buffered(new InputStreamReader(System.in));
+  BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
 
   // Initializing Variables
   int intMenuOption;
