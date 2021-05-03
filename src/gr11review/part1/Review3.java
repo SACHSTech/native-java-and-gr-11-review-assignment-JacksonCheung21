@@ -11,16 +11,18 @@ public class Review3{
  public static void main(String[] args) throws IOException{
    
    //initializing variables
-   int Count;
-   int Count2;
+   int intCount;
+   int intCountdown;
+
+
+  // Prints odd numbers from 20 to 100
+  for (intCount = 20; intCount < 100; intCount++){
+    if(intCount % 2 != 0) {
+      System.out.println(intCount);
+    }
+  }
 
   
-
-
-
-
-
-
 
 
 
