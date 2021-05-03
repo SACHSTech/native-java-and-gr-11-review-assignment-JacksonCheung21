@@ -1,6 +1,6 @@
 package gr11review.part1;
 
-import java.io*;
+import java.io.*;
 
 /**
 * This program asks user to input a sentence
@@ -10,7 +10,7 @@ import java.io*;
 */
 
 public class Review7{
-  public static void main(String[] args) throw IOException{
+  public static void main(String[] args) throws IOException{
 
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
 
@@ -31,7 +31,8 @@ public class Review7{
     for (intCount = 0; intCount < intCharacters; intCount++){
       // finding each single charcter from the sentence to put into the char variables
       char chrCharacter = strSentence.charAt(intCount);
-      if (chrCharacter == " "){
+
+      if (chrCharacter == ' '){
         intSpaces++;
       }
       else if(chrCharacter == 'a'){
