@@ -38,17 +38,19 @@ public class Review2{
    System.out.println("Maple Stirrups.");
    break;
    
- 
-
-
-
-
-
+   case 2:
+   // If the user input at intMenuOption is 2 it prints out a joke about your clothes
+   System.out.println("What is DNA's favourite piece of clothing?");
+   System.out.println("(Jeans(genes)");
+   break;
+   
+   case 3:
+   // If the user input at intMenuOption is 3 it prints out a joke about  your teacher
+   System.out.println("Why did the teacher wear sunglasses?");
+   System.out.println("Because his class was so bright!");
+   break; 
 
  }
-
-
-
 
 
  }
