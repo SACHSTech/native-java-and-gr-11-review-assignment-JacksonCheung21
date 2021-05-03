@@ -6,7 +6,7 @@ import java.io.*;
 @author: J. Cheung
 */
 
-public class Review2{
+public class Review1{
 
  public static void main(String[] args) throws IOException{
  
@@ -46,5 +46,6 @@ public class Review2{
 
   // Result
   System.out.println(intDayofYear);
+
  }
 }
