@@ -50,8 +50,10 @@ public class Review2{
    System.out.println("Because his class was so bright!");
    break; 
 
- }
+  default:
+  // if the user input at intMenuOption isn't any of the cases above, it prints "invalid menu option"
+  System.out.println("Invalid menu option");
 
-
+  }
  }
 }
