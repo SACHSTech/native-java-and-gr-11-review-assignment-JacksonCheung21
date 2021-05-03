@@ -25,7 +25,25 @@ public class Review7{
     // Asking user for input (sentence)
     strSentence = key.readLine();
 
-   
+    //used to count number of letters in sentence
+    intCharacters = strSentence.length();
+
+    for (intCount = 0; intCount < intCharacters; intCount++){
+      // finding each single charcter from the sentence to put into the char variables
+      char chrCharacter = strSentence.charAt(intCount);
+      if (chrCharacter == " "){
+        intSpaces++;
+      }
+      else if(chrCharacter == 'a'){
+        intLetterA++;
+      }
+
+      
+
+
+    }
+
+
 
 
 
