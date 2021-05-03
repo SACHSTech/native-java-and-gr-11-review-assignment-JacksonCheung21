@@ -13,15 +13,15 @@ public class Review4{
   public static void main(String[] args) throws IOException{
 
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
-    Number numberFormat = new DecimalFormat("#,##0.00");
+    NumberFormat numberFormat = new DecimalFormat("#,##0.00");
 
     // initializing variables
     int intNumItems;
     int intCount;
     double dblPrice;
-    double dblSubtotal;
     double dblTax;
     double dblTotal;
+    double dblSubtotal = 0;
 
     // Asking user input for the number of items
     System.out.print("How many items do you want to buy?");
@@ -30,11 +30,11 @@ public class Review4{
     // For loop that will continue going until user has inputted the price of items
 
     for (intCount = 1; intCount <= intNumItems; intCount++){
-        Systen.out.println("Enter the price for titem " +intCount+ ":");
-        dblPrice = Double.parseDouble(key.readLine());
+        System.out.print("Enter the price for item " +intCount+ ":");
+        dblPrice += Double.parseDouble(key.readLine());
         dblSubtotal += dblPrice;
     }
-  
+
 
 
 
