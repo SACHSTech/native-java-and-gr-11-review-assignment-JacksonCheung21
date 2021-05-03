@@ -38,29 +38,20 @@ public class Review7{
         intLetterA++;
       }
 
-      
+      // check if letter is odd or not
 
+      if ((intCount+1) % 2 != 0){
+        strDashes += "-";
+      }
+
+      // printint out how many characters, how many spaces, letter a in the sentence
+      // as well as the dashes
+
+      System.out.println("There are " + chrCharacter + " characters in the sentence.");
+      System.out.println("There are " + intSpaces + " spaces in the sentence.");
+      System.out.println("There are " + intLetterA + "letter a in the sentence.");
+      System.out.println(strDashes);
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   }
 }
