@@ -34,8 +34,11 @@ public class Review2{
 
    case 1:
    // If the user input at intMenuOption is 1 it prints out a joke about your feet
+   System.out.println("Why do Canadian cowboys have sticky feet?");
+   System.out.println("Maple Stirrups.");
+   break;
    
-
+ 
 
 
 
