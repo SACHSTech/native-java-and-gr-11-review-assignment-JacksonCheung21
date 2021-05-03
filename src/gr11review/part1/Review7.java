@@ -31,8 +31,7 @@ public class Review7{
     for (intCount = 0; intCount < intCharacters; intCount++){
       // finding each single charcter from the sentence to put into the char variables
       char chrCharacter = strSentence.charAt(intCount);
-
-      if (chrCharacter == ' '){
+      if(chrCharacter == ' '){
         intSpaces++;
       }
       else if(chrCharacter == 'a'){
@@ -44,15 +43,14 @@ public class Review7{
       if ((intCount+1) % 2 != 0){
         strDashes += "-";
       }
+    }
 
-      // printint out how many characters, how many spaces, letter a in the sentence
+      // printing out how many characters, how many spaces, letter a in the sentence
       // as well as the dashes
 
-      System.out.println("There are " + chrCharacter + " characters in the sentence.");
+      System.out.println("There are " + intCharacters + " characters in the sentence.");
       System.out.println("There are " + intSpaces + " spaces in the sentence.");
-      System.out.println("There are " + intLetterA + "letter a in the sentence.");
+      System.out.println("There are " + intLetterA + " letter a in the sentence.");
       System.out.println(strDashes);
-
-    }
   }
 }
