@@ -6,3 +6,25 @@ import java.io.*;
 * Prints numbers from 29 to 2 in a decreasing order
 * @author: J. Cheung
 */
+
+public class Review3{
+ public static void main(String[] args) throws IOException{
+   
+   //initializing variables
+   int Count;
+   int Count2;
+
+  
+
+
+
+
+
+
+
+
+
+
+
+ }
+}
