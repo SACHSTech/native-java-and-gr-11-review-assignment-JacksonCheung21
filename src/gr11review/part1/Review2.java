@@ -4,7 +4,7 @@ import java.io.*;
 /**
 * program that prints out jokes according to user input
 * If user input number dont match then print "Invalid menu option"
-*@author: C.Jackson
+* @author: J.Cheung
 */
 
 public class Review2{
